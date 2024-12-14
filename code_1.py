@@ -65,7 +65,7 @@ profiles = {
         "Hobi": "Menonton",
     },
     "Alexandra Mercy Christani": {
-        "gambar": "mercy.jpg",  # Nama file gambar lokal
+        "gambar": "alexa.jpeg",  # Nama file gambar lokal
         "Nama": "Alexandra",
         "Student ID" : "'021202400008'",
         "Hobi": "Membaca",
