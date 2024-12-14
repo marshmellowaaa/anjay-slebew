@@ -81,10 +81,10 @@ if menu == "Profile":
 
     # Tampilkan informasi profil yang dipilih
     profile = profiles[profile_choice]
-    st.image(profile["gambar"], caption=profile["nama"], width=150)
-    st.write(f"Nama: {profile['nama']}")
-    st.write(f"Hobi: {profile['hobi']}")
-    st.write(f"Tentang: {profile['tentang']}")
+    st.image(profile["gambar"], caption=profile["Nama"], width=150)
+    st.write(f"Nama: {profile['Nama']}")
+    st.write(f"Hobi: {profile['Hobi']}")
+    st.write(f"Student ID: {profile['Student ID']}")
 
 # Bagian Grafik (Untuk demo, menampilkan gambar grafik)
 elif menu == "Grafik":
