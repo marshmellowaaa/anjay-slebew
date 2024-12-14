@@ -52,23 +52,23 @@ menu = st.sidebar.radio("Pilih Menu", ["Profile", "Grafik", "Peta"])
 
 # Data Profile untuk 3 orang
 profiles = {
-    "Falah": {
+    "Feriza Anggraeni": {
         "gambar": "feriza.jpg",  # Nama file gambar lokal
-        "nama": "mercy",
-        "hobi": "Renang, Tenis Meja",
-        "tentang": "Seorang mahasiswa dan atlet dari Jawa Timur."
+        "Nama": "Feriza",
+        "Student ID" : "'021202400021'",
+        "Hobi": "Menulis",
     },
-    "Andi": {
+    "Hana Arabella Liliana Sigalingging": {
         "gambar": "hanna.jpg",  # Nama file gambar lokal
-        "nama": "hanna",
-        "hobi": "Membaca, Coding",
-        "tentang": "Mahasiswa yang suka belajar dan berkolaborasi."
+        "Nama": "Hana",
+        "Student ID" : "'021202400003'",
+        "Hobi": "Menonton",
     },
-    "Budi": {
-        "gambar": "feriza.jpg",  # Nama file gambar lokal
-        "nama": "feriza",
-        "hobi": "Sepak Bola, Musik",
-        "tentang": "Atlet sepak bola yang juga pemusik amatir."
+    "Alexandra Mercy Christani": {
+        "gambar": "mercy.jpg",  # Nama file gambar lokal
+        "Nama": "Alexandra",
+        "Student ID" : "'021202400008'",
+        "Hobi": "Membaca",
     }
 }
 
@@ -77,7 +77,7 @@ if menu == "Profile":
     st.subheader("Profile")
     
     # Pilih salah satu profil
-    profile_choice = st.selectbox("Pilih Profile", ["Falah", "Andi", "Budi"])
+    profile_choice = st.selectbox("Pilih Profile", ["Feriza Anggraeni", "Hana Arabella Liliana Sigalingging", "Alexandra Mercy Christani"])
 
     # Tampilkan informasi profil yang dipilih
     profile = profiles[profile_choice]
