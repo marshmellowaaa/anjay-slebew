@@ -89,7 +89,7 @@ if menu == "Profile":
 # Bagian Grafik (Untuk demo, menampilkan gambar grafik)
 elif menu == "Grafik":
     st.subheader("Grafik")
-    st.image("peta_koneksi_jawa_timur.jpg", caption="Grafik Contoh", use_column_width=True)
+    st.image("peta_koneksi_jawa_timur.png", caption="Grafik Contoh", use_column_width=True)
 
 # Bagian Peta
 elif menu == "Peta":
